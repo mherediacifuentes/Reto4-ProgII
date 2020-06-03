@@ -1,0 +1,18 @@
+.products_tailwind{
+    background-image: url("../images/curve.png")
+
+}
+
+.img_beneficio{
+    max-height: 100px;
+}
+
+.compra_background{
+    background-image: url("../images/compra.gif");
+    background-position: center;
+    background-size: contain;
+}
+/*Agregué*/
+.pa-40{
+    padding: 15px 15px
+}
