@@ -1,5 +1,6 @@
 .products_tailwind{
     background-image: url("../images/curve.png")
+
 }
 
 .img_beneficio{
@@ -10,4 +11,8 @@
     background-image: url("../images/compra.gif");
     background-position: center;
     background-size: contain;
+}
+/*Agregué*/
+.pa-40{
+    padding: 15px 15px
 }
