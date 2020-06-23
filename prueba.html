@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/tailwindcss@1.2.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/tailwindPropio.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="scripts/carousel.js"></script>
+</head>
+<!--<body class="h-screen overflow-hidden flex items-center justify-center" style="background: #edf2f7;">-->
+    <head>
+</head>
+
+<body>
+    <div class="sliderAx h-auto">
+        <div id="slider-1" class="container mx-auto">
+            <div class="bg-cover bg-center h-auto text-white py-24 px-10 object-fill bg-gray-500 bg-uno">
+                <div class="md:w-1/2">
+                    <p class="font-bold text-sm uppercase">Services</p>
+                    <p class="text-3xl font-bold">Hello world</p>
+                    <p class="text-2xl mb-10 leading-none">Carousel with TailwindCSS and jQuery</p>
+                    <a href="#" class="bg-purple-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Contact us</a>
+                </div>  
+            </div> <!-- container -->
+        <br>
+        </div>
+
+        <div id="slider-2" class="container mx-auto">
+            <div class="bg-cover bg-top h-auto text-white py-24 px-10 object-fill bg-gray-500 bg-dos">
+                <p class="font-bold text-sm uppercase">Services</p>
+                <p class="text-3xl font-bold">Hello world</p>
+                <p class="text-2xl mb-10 leading-none">Carousel with TailwindCSS and jQuery</p>
+                <a href="#" class="bg-purple-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Contact us</a>
+            
+            </div> <!-- container -->
+            <br>
+        </div>
+    </div>
+    <div  class="flex justify-between w-12 mx-auto pb-2">
+        <button id="sButton1" onclick="sliderButton1()" class="bg-purple-400 rounded-full w-4 pb-2 " ></button>
+        <button id="sButton2" onclick="sliderButton2() " class="bg-purple-400 rounded-full w-4 p-2"></button>
+    </div>
+
+</body>
+</body>
+</html>
