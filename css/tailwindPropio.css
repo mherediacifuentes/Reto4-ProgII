@@ -12,3 +12,17 @@
     background-position: center;
     background-size: contain;
 }
+
+.bg-uno{
+    background-image: url("../images/Juguete\ 1.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-dos{
+    background-image: url("../images/Juguete\ 3.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
